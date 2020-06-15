@@ -1,0 +1,1194 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Models/GrandsVoisins2/GrandsVoisins2.dae" type="PackedScene" id=1]
+[ext_resource path="res://Models/GrandsVoisins2/Navigation-1592154318566.png" type="Texture" id=2]
+
+[sub_resource type="PlaneMesh" id=1]
+
+[sub_resource type="SpatialMaterial" id=2]
+albedo_texture = ExtResource( 2 )
+
+[node name="GrandsVoisins2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0319824, 0.302673, 0.977234 )
+
+[node name="element7224" parent="map_12osm_vegetation" index="224"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.49127, 0, 0 )
+
+[node name="element7914" parent="map_12osm_vegetation" index="338"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.49127, 0, 0 )
+
+[node name="element7915" parent="map_12osm_vegetation" index="339"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.49127, 0, 0 )
+
+[node name="Place des Droits de l\'Enfant" parent="map_12osm_areas_pedestrian" index="46"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.49127, 0, 0 )
+
+[node name="element6677" parent="map_12osm_water" index="5"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 3.49127, 0, 0 )
+
+[node name="element1750" parent="map_12osm_buildings" index="1818"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -191.721, 0, 3.30938 )
+
+[node name="element1876" parent="map_12osm_buildings" index="1947"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -495.455, 0, 63.7817 )
+
+[node name="element2054" parent="map_12osm_buildings" index="2135"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -211.594, 0, 15.2087 )
+
+[node name="element3640" parent="map_12osm_buildings" index="3764"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 603.25, 0, 7.97774 )
+
+[node name="element3694" parent="map_12osm_buildings" index="3822"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1098.31, 0, -3.57483 )
+
+[node name="element3712" parent="map_12osm_buildings" index="3840"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 566.041, 0, 7.60315 )
+
+[node name="element3865" parent="map_12osm_buildings" index="4003"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 585.444, 0, 7.84605 )
+
+[node name="element3889" parent="map_12osm_buildings" index="4028"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 471.697, 0, 0.821438 )
+
+[node name="element3917" parent="map_12osm_buildings" index="4057"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 558.427, 0, 7.58165 )
+
+[node name="element3964" parent="map_12osm_buildings" index="4109"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 612.552, 0, 31.7657 )
+
+[node name="element4527" parent="map_12osm_buildings" index="4711"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -712.837, 0, -0.0168022 )
+
+[node name="element4590" parent="map_12osm_buildings" index="4782"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -806.623, 0, 3.9334 )
+
+[node name="element4765" parent="map_12osm_buildings" index="4966"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1073.93, 0, 0.214786 )
+
+[node name="element4983" parent="map_12osm_buildings" index="5199"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -870.708, 0, 127.589 )
+
+[node name="element4988" parent="map_12osm_buildings" index="5204"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -526.806, 0, 255.838 )
+
+[node name="element4990" parent="map_12osm_buildings" index="5206"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -994.474, 0, 255.385 )
+
+[node name="element5326" parent="map_12osm_buildings" index="5546"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1210.29, 0, 1115.36 )
+
+[node name="element5329" parent="map_12osm_buildings" index="5549"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -979.712, 0, 833.914 )
+
+[node name="element5332" parent="map_12osm_buildings" index="5552"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1087.67, 0, 740.096 )
+
+[node name="element5333" parent="map_12osm_buildings" index="5553"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1017.35, 0, 853.923 )
+
+[node name="element5334" parent="map_12osm_buildings" index="5554"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1249.63, 0, 767.391 )
+
+[node name="Maison Ozenfant" parent="map_12osm_buildings" index="5556"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1126.2, 0, 1092.96 )
+
+[node name="element5335" parent="map_12osm_buildings" index="5557"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1224, 0, 649.599 )
+
+[node name="element5337" parent="map_12osm_buildings" index="5559"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1222.18, 0, 783.316 )
+
+[node name="element5338" parent="map_12osm_buildings" index="5560"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1010.65, 0, 757.61 )
+
+[node name="element5339" parent="map_12osm_buildings" index="5561"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -907.334, 0, 1055.85 )
+
+[node name="element5340" parent="map_12osm_buildings" index="5562"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1197.71, 0, 812.109 )
+
+[node name="element5341" parent="map_12osm_buildings" index="5563"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1101.98, 0, 828.593 )
+
+[node name="element5342" parent="map_12osm_buildings" index="5564"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1188.33, 0, 697.529 )
+
+[node name="element5343" parent="map_12osm_buildings" index="5565"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1053.19, 0, 722.259 )
+
+[node name="element5345" parent="map_12osm_buildings" index="5567"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1038.71, 0, 1113.83 )
+
+[node name="element5347" parent="map_12osm_buildings" index="5569"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1160.75, 0, 770.683 )
+
+[node name="element5348" parent="map_12osm_buildings" index="5570"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1224.01, 0, 670.449 )
+
+[node name="element5349" parent="map_12osm_buildings" index="5571"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -980.072, 0, 836.53 )
+
+[node name="element5350" parent="map_12osm_buildings" index="5572"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1235.05, 0, 810.397 )
+
+[node name="element5351" parent="map_12osm_buildings" index="5573"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1131.74, 0, 668.32 )
+
+[node name="element5352" parent="map_12osm_buildings" index="5574"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1173.93, 0, 716.212 )
+
+[node name="element5353" parent="map_12osm_buildings" index="5575"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1060.53, 0, 875.321 )
+
+[node name="element5354" parent="map_12osm_buildings" index="5576"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1186.44, 0, 822.408 )
+
+[node name="element5355" parent="map_12osm_buildings" index="5577"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -975.101, 0, 867.823 )
+
+[node name="element5356" parent="map_12osm_buildings" index="5578"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1100.73, 0, 1104.69 )
+
+[node name="element5357" parent="map_12osm_buildings" index="5579"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1066.6, 0, 732.074 )
+
+[node name="element5358" parent="map_12osm_buildings" index="5580"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1045.52, 0, 1095.97 )
+
+[node name="element5359" parent="map_12osm_buildings" index="5581"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1141.72, 0, 727.818 )
+
+[node name="element5360" parent="map_12osm_buildings" index="5582"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1101.52, 0, 790.165 )
+
+[node name="element5361" parent="map_12osm_buildings" index="5583"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1107.39, 0, 1104.56 )
+
+[node name="element5362" parent="map_12osm_buildings" index="5584"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -985.776, 0, 809.122 )
+
+[node name="Réservoir de Montsouris" parent="map_12osm_buildings" index="5585"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -919.139, 0, 959.037 )
+
+[node name="element5363" parent="map_12osm_buildings" index="5586"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1294.65, 0, 858.641 )
+
+[node name="element5366" parent="map_12osm_buildings" index="5589"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -963.156, 0, 746.12 )
+
+[node name="element5367" parent="map_12osm_buildings" index="5590"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -972.628, 0, 804.906 )
+
+[node name="element5368" parent="map_12osm_buildings" index="5591"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1142.41, 0, 756.839 )
+
+[node name="Maison de Mademoiselle Quillé" parent="map_12osm_buildings" index="5592"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1130.46, 0, 805.355 )
+
+[node name="Maison Arnold Huggler" parent="map_12osm_buildings" index="5593"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1111.14, 0, 827.077 )
+
+[node name="element5371" parent="map_12osm_buildings" index="5596"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1244.52, 0, 883.666 )
+
+[node name="element5372" parent="map_12osm_buildings" index="5597"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1042.81, 0, 832.467 )
+
+[node name="element5374" parent="map_12osm_buildings" index="5599"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1092.7, 0, 846.984 )
+
+[node name="element5375" parent="map_12osm_buildings" index="5600"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1133.05, 0, 718.402 )
+
+[node name="element5376" parent="map_12osm_buildings" index="5601"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1008.3, 0, 1096.38 )
+
+[node name="element5377" parent="map_12osm_buildings" index="5602"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1132.58, 0, 739.509 )
+
+[node name="element5378" parent="map_12osm_buildings" index="5603"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -983.077, 0, 1131.58 )
+
+[node name="element5379" parent="map_12osm_buildings" index="5604"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -950.769, 0, 1118.51 )
+
+[node name="element5381" parent="map_12osm_buildings" index="5606"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1002.53, 0, 847.825 )
+
+[node name="element5383" parent="map_12osm_buildings" index="5608"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1126.71, 0, 845.987 )
+
+[node name="element5384" parent="map_12osm_buildings" index="5609"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1176.31, 0, 831.95 )
+
+[node name="element5385" parent="map_12osm_buildings" index="5610"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1019.86, 0, 1095.8 )
+
+[node name="element5386" parent="map_12osm_buildings" index="5611"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1048.33, 0, 1079.92 )
+
+[node name="element5387" parent="map_12osm_buildings" index="5612"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1121.53, 0, 843.995 )
+
+[node name="element5390" parent="map_12osm_buildings" index="5615"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1036.38, 0, 757.439 )
+
+[node name="element5391" parent="map_12osm_buildings" index="5616"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1173.89, 0, 832.385 )
+
+[node name="element5392" parent="map_12osm_buildings" index="5617"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1024.29, 0, 1114.41 )
+
+[node name="element5395" parent="map_12osm_buildings" index="5620"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -951.644, 0, 1095.29 )
+
+[node name="element5397" parent="map_12osm_buildings" index="5622"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -970.574, 0, 837.656 )
+
+[node name="element5398" parent="map_12osm_buildings" index="5623"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1072.56, 0, 814.027 )
+
+[node name="element5399" parent="map_12osm_buildings" index="5624"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1118.26, 0, 1098.96 )
+
+[node name="element5400" parent="map_12osm_buildings" index="5625"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1052.74, 0, 816.925 )
+
+[node name="element5402" parent="map_12osm_buildings" index="5627"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1071.82, 0, 665.861 )
+
+[node name="element5403" parent="map_12osm_buildings" index="5628"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1059.68, 0, 1095.24 )
+
+[node name="element5404" parent="map_12osm_buildings" index="5629"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1037.46, 0, 761.902 )
+
+[node name="element5405" parent="map_12osm_buildings" index="5630"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1116.11, 0, 786.533 )
+
+[node name="element5406" parent="map_12osm_buildings" index="5631"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1250.36, 0, 915.802 )
+
+[node name="element5407" parent="map_12osm_buildings" index="5632"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1239.35, 0, 755.983 )
+
+[node name="element5408" parent="map_12osm_buildings" index="5633"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1097.26, 0, 782.363 )
+
+[node name="element5410" parent="map_12osm_buildings" index="5635"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1089, 0, 1108.82 )
+
+[node name="element5412" parent="map_12osm_buildings" index="5638"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1036.16, 0, 693.875 )
+
+[node name="element5413" parent="map_12osm_buildings" index="5639"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1094.44, 0, 738.37 )
+
+[node name="element5415" parent="map_12osm_buildings" index="5641"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1098.69, 0, 737.411 )
+
+[node name="element5416" parent="map_12osm_buildings" index="5642"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1111.43, 0, 709.045 )
+
+[node name="element5417" parent="map_12osm_buildings" index="5643"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1104.38, 0, 816.77 )
+
+[node name="element5418" parent="map_12osm_buildings" index="5644"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1092.85, 0, 661.125 )
+
+[node name="element5419" parent="map_12osm_buildings" index="5645"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -968.732, 0, 1116.72 )
+
+[node name="element5420" parent="map_12osm_buildings" index="5646"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1021.05, 0, 813.168 )
+
+[node name="element5421" parent="map_12osm_buildings" index="5647"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1012.15, 0, 765.903 )
+
+[node name="element5422" parent="map_12osm_buildings" index="5648"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1156.09, 0, 718.086 )
+
+[node name="element5423" parent="map_12osm_buildings" index="5649"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -981.232, 0, 768.213 )
+
+[node name="element5426" parent="map_12osm_buildings" index="5652"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1104.51, 0, 765.24 )
+
+[node name="element5430" parent="map_12osm_buildings" index="5656"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1078.94, 0, 742.057 )
+
+[node name="element5431" parent="map_12osm_buildings" index="5657"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1011.45, 0, 1114.94 )
+
+[node name="Maison de Madame Bertrand" parent="map_12osm_buildings" index="5660"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1124.03, 0, 824.926 )
+
+[node name="Maison Goerg et Gromaire" parent="map_12osm_buildings" index="5661"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1160.29, 0, 819.653 )
+
+[node name="element5434" parent="map_12osm_buildings" index="5662"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -926.061, 0, 1107.96 )
+
+[node name="element5436" parent="map_12osm_buildings" index="5664"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1095.28, 0, 756.08 )
+
+[node name="element5437" parent="map_12osm_buildings" index="5665"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1054.57, 0, 1113.16 )
+
+[node name="element5438" parent="map_12osm_buildings" index="5666"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1177.6, 0, 840.31 )
+
+[node name="element5440" parent="map_12osm_buildings" index="5668"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1132.42, 0, 772.27 )
+
+[node name="element5441" parent="map_12osm_buildings" index="5669"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1128.95, 0, 688.113 )
+
+[node name="element5442" parent="map_12osm_buildings" index="5670"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1145.67, 0, 715.55 )
+
+[node name="element5443" parent="map_12osm_buildings" index="5671"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1263, 0, 649.367 )
+
+[node name="element5444" parent="map_12osm_buildings" index="5672"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1094.95, 0, 1106.71 )
+
+[node name="element5445" parent="map_12osm_buildings" index="5673"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -980.222, 0, 856.635 )
+
+[node name="element5447" parent="map_12osm_buildings" index="5675"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1203.45, 0, 810.248 )
+
+[node name="element5449" parent="map_12osm_buildings" index="5677"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1199.98, 0, 869.237 )
+
+[node name="element5450" parent="map_12osm_buildings" index="5678"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1074.71, 0, 854.613 )
+
+[node name="element5451" parent="map_12osm_buildings" index="5679"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1138.54, 0, 822.496 )
+
+[node name="element5452" parent="map_12osm_buildings" index="5681"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -966.442, 0, 1099.9 )
+
+[node name="element5454" parent="map_12osm_buildings" index="5683"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -967.767, 0, 793.53 )
+
+[node name="element5455" parent="map_12osm_buildings" index="5684"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1220.71, 0, 826.319 )
+
+[node name="element5456" parent="map_12osm_buildings" index="5685"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -981.232, 0, 768.213 )
+
+[node name="element5457" parent="map_12osm_buildings" index="5686"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1116.48, 0, 762.611 )
+
+[node name="element5458" parent="map_12osm_buildings" index="5687"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1058.54, 0, 668.835 )
+
+[node name="element5459" parent="map_12osm_buildings" index="5688"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -983.826, 0, 1099.1 )
+
+[node name="element5460" parent="map_12osm_buildings" index="5689"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1165.03, 0, 867.13 )
+
+[node name="element5462" parent="map_12osm_buildings" index="5691"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1181.09, 0, 699.357 )
+
+[node name="element5465" parent="map_12osm_buildings" index="5694"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1012.24, 0, 1073.76 )
+
+[node name="element5466" parent="map_12osm_buildings" index="5695"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1072.46, 0, 903.973 )
+
+[node name="element5467" parent="map_12osm_buildings" index="5696"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1102.93, 0, 845.157 )
+
+[node name="element5468" parent="map_12osm_buildings" index="5697"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1217.92, 0, 1073.54 )
+
+[node name="element5470" parent="map_12osm_buildings" index="5699"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1131.7, 0, 1098.5 )
+
+[node name="element5471" parent="map_12osm_buildings" index="5700"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1182.85, 0, 706.08 )
+
+[node name="element5473" parent="map_12osm_buildings" index="5702"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -958.839, 0, 829.309 )
+
+[node name="element5475" parent="map_12osm_buildings" index="5704"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -981.778, 0, 704.282 )
+
+[node name="element5476" parent="map_12osm_buildings" index="5705"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1033.72, 0, 674.428 )
+
+[node name="element5477" parent="map_12osm_buildings" index="5706"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1176.64, 0, 912.056 )
+
+[node name="element5478" parent="map_12osm_buildings" index="5707"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1105.38, 0, 858.503 )
+
+[node name="element5480" parent="map_12osm_buildings" index="5709"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1071.68, 0, 906.422 )
+
+[node name="element5484" parent="map_12osm_buildings" index="5713"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -962.792, 0, 1100.08 )
+
+[node name="element5485" parent="map_12osm_buildings" index="5714"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1019.96, 0, 806.534 )
+
+[node name="element5486" parent="map_12osm_buildings" index="5715"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1101.15, 0, 746.662 )
+
+[node name="element5487" parent="map_12osm_buildings" index="5716"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1182.16, 0, 833.886 )
+
+[node name="element5488" parent="map_12osm_buildings" index="5717"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -959.852, 0, 794.711 )
+
+[node name="element5489" parent="map_12osm_buildings" index="5718"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1030.82, 0, 1114.13 )
+
+[node name="element5490" parent="map_12osm_buildings" index="5719"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1161.74, 0, 800.495 )
+
+[node name="Maison Frank Townshend" parent="map_12osm_buildings" index="5721"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1178.54, 0, 815.864 )
+
+[node name="element5492" parent="map_12osm_buildings" index="5722"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -967.258, 0, 858.184 )
+
+[node name="element5493" parent="map_12osm_buildings" index="5723"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1011.51, 0, 854.748 )
+
+[node name="element5495" parent="map_12osm_buildings" index="5725"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -960.655, 0, 1117.06 )
+
+[node name="element5496" parent="map_12osm_buildings" index="5726"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -991.674, 0, 1132.59 )
+
+[node name="element5497" parent="map_12osm_buildings" index="5727"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1003.54, 0, 1115.27 )
+
+[node name="element5498" parent="map_12osm_buildings" index="5728"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1090.38, 0, 782.097 )
+
+[node name="element5500" parent="map_12osm_buildings" index="5730"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1186.44, 0, 822.408 )
+
+[node name="element5501" parent="map_12osm_buildings" index="5731"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1071.77, 0, 1083.92 )
+
+[node name="element5502" parent="map_12osm_buildings" index="5732"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1131.19, 0, 854.58 )
+
+[node name="element5504" parent="map_12osm_buildings" index="5734"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1077.53, 0, 849.303 )
+
+[node name="element5505" parent="map_12osm_buildings" index="5735"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1057.74, 0, 856.231 )
+
+[node name="element5507" parent="map_12osm_buildings" index="5737"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1012.63, 0, 697.342 )
+
+[node name="element5508" parent="map_12osm_buildings" index="5738"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1082.79, 0, 715.552 )
+
+[node name="element5511" parent="map_12osm_buildings" index="5741"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -928.305, 0, 1120.76 )
+
+[node name="element5513" parent="map_12osm_buildings" index="5743"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1093.7, 0, 767.636 )
+
+[node name="element5515" parent="map_12osm_buildings" index="5745"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1256.85, 0, 669.607 )
+
+[node name="Villa Diana" parent="map_12osm_buildings" index="5746"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1041.17, 0, 1078.69 )
+
+[node name="element5516" parent="map_12osm_buildings" index="5747"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1008.79, 0, 680.043 )
+
+[node name="element5518" parent="map_12osm_buildings" index="5749"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1173.99, 0, 684.252 )
+
+[node name="element5519" parent="map_12osm_buildings" index="5750"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1207.36, 0, 732.558 )
+
+[node name="element5520" parent="map_12osm_buildings" index="5751"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1062.35, 0, 1112.82 )
+
+[node name="element5521" parent="map_12osm_buildings" index="5752"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1024.22, 0, 861.603 )
+
+[node name="element5523" parent="map_12osm_buildings" index="5754"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1020.19, 0, 893.274 )
+
+[node name="element5524" parent="map_12osm_buildings" index="5755"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1011.76, 0, 847.901 )
+
+[node name="element5526" parent="map_12osm_buildings" index="5757"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1200.02, 0, 819.856 )
+
+[node name="element5527" parent="map_12osm_buildings" index="5758"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1222.18, 0, 783.316 )
+
+[node name="element5528" parent="map_12osm_buildings" index="5759"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1026.45, 0, 1076.18 )
+
+[node name="element5529" parent="map_12osm_buildings" index="5760"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1039.92, 0, 673.036 )
+
+[node name="element5530" parent="map_12osm_buildings" index="5761"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1123.03, 0, 738.742 )
+
+[node name="element5531" parent="map_12osm_buildings" index="5762"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -950.979, 0, 804.576 )
+
+[node name="element5532" parent="map_12osm_buildings" index="5763"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -976.275, 0, 792.237 )
+
+[node name="element5535" parent="map_12osm_buildings" index="5766"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1167.94, 0, 799.547 )
+
+[node name="element5536" parent="map_12osm_buildings" index="5767"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1159.56, 0, 793.771 )
+
+[node name="element5537" parent="map_12osm_buildings" index="5768"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -914.164, 0, 1057.03 )
+
+[node name="element5538" parent="map_12osm_buildings" index="5769"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -908.083, 0, 1069.53 )
+
+[node name="element5539" parent="map_12osm_buildings" index="5770"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1125.43, 0, 720.107 )
+
+[node name="element5540" parent="map_12osm_buildings" index="5771"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1046.49, 0, 1113.49 )
+
+[node name="element5541" parent="map_12osm_buildings" index="5772"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -996.396, 0, 1098.4 )
+
+[node name="element5542" parent="map_12osm_buildings" index="5773"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1182.21, 0, 703.698 )
+
+[node name="element5543" parent="map_12osm_buildings" index="5774"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1264.69, 0, 1023.15 )
+
+[node name="element5544" parent="map_12osm_buildings" index="5775"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1092.54, 0, 813.945 )
+
+[node name="element5548" parent="map_12osm_buildings" index="5779"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -984.026, 0, 862.601 )
+
+[node name="element5550" parent="map_12osm_buildings" index="5781"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1005.21, 0, 726.876 )
+
+[node name="element5553" parent="map_12osm_buildings" index="5784"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -984.54, 0, 866.697 )
+
+[node name="element5554" parent="map_12osm_buildings" index="5785"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1071.34, 0, 730.994 )
+
+[node name="element5555" parent="map_12osm_buildings" index="5786"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1033.56, 0, 834.005 )
+
+[node name="element5556" parent="map_12osm_buildings" index="5787"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -977.043, 0, 826.891 )
+
+[node name="element5557" parent="map_12osm_buildings" index="5788"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -984.019, 0, 1068.94 )
+
+[node name="element5558" parent="map_12osm_buildings" index="5789"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1089.93, 0, 1087 )
+
+[node name="element5559" parent="map_12osm_buildings" index="5790"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1218.05, 0, 1037.81 )
+
+[node name="element5561" parent="map_12osm_buildings" index="5792"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1071.54, 0, 772.538 )
+
+[node name="element5564" parent="map_12osm_buildings" index="5795"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1131, 0, 759.368 )
+
+[node name="element5565" parent="map_12osm_buildings" index="5796"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1231.12, 0, 907.246 )
+
+[node name="element5567" parent="map_12osm_buildings" index="5798"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1035.03, 0, 751.862 )
+
+[node name="element5568" parent="map_12osm_buildings" index="5799"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1240.02, 0, 649.506 )
+
+[node name="element5571" parent="map_12osm_buildings" index="5802"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1055.03, 0, 836.205 )
+
+[node name="element5572" parent="map_12osm_buildings" index="5803"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1070.66, 0, 1117.71 )
+
+[node name="element5574" parent="map_12osm_buildings" index="5805"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1047.07, 0, 854.908 )
+
+[node name="element5575" parent="map_12osm_buildings" index="5806"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -996.344, 0, 1097.03 )
+
+[node name="element5576" parent="map_12osm_buildings" index="5807"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1072.95, 0, 743.417 )
+
+[node name="Maison Émile Just Bachelet" parent="map_12osm_buildings" index="5808"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1134.6, 0, 804.664 )
+
+[node name="element5577" parent="map_12osm_buildings" index="5809"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1239.99, 0, 673.184 )
+
+[node name="element5578" parent="map_12osm_buildings" index="5810"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1102.89, 0, 911.626 )
+
+[node name="element5580" parent="map_12osm_buildings" index="5812"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -910.491, 0, 1001.15 )
+
+[node name="element5582" parent="map_12osm_buildings" index="5814"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1176.77, 0, 834.822 )
+
+[node name="element5586" parent="map_12osm_buildings" index="5818"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1050.91, 0, 887.068 )
+
+[node name="element5587" parent="map_12osm_buildings" index="5819"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1253.95, 0, 649.414 )
+
+[node name="element5590" parent="map_12osm_buildings" index="5822"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1089.5, 0, 778.334 )
+
+[node name="element5591" parent="map_12osm_buildings" index="5823"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1181.59, 0, 929.521 )
+
+[node name="element5592" parent="map_12osm_buildings" index="5824"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1100.98, 0, 776.685 )
+
+[node name="element5593" parent="map_12osm_buildings" index="5825"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1093.14, 0, 738.626 )
+
+[node name="element5594" parent="map_12osm_buildings" index="5826"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -970.767, 0, 769.763 )
+
+[node name="element5601" parent="map_12osm_buildings" index="5833"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -956.615, 0, 1064.27 )
+
+[node name="element5602" parent="map_12osm_buildings" index="5834"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -986.188, 0, 734.037 )
+
+[node name="element5603" parent="map_12osm_buildings" index="5835"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1227.19, 0, 1039.52 )
+
+[node name="element5604" parent="map_12osm_buildings" index="5836"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1053.19, 0, 722.259 )
+
+[node name="element5605" parent="map_12osm_buildings" index="5837"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1013.69, 0, 702.206 )
+
+[node name="element5606" parent="map_12osm_buildings" index="5838"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1100.27, 0, 743.378 )
+
+[node name="element5607" parent="map_12osm_buildings" index="5839"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1193.86, 0, 689.859 )
+
+[node name="element5610" parent="map_12osm_buildings" index="5842"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1119.44, 0, 677.373 )
+
+[node name="element5612" parent="map_12osm_buildings" index="5844"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1146.01, 0, 773.904 )
+
+[node name="element5613" parent="map_12osm_buildings" index="5845"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1143.22, 0, 661.728 )
+
+[node name="element5614" parent="map_12osm_buildings" index="5846"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1055.84, 0, 734.281 )
+
+[node name="Maison de Jean Lurçat" parent="map_12osm_buildings" index="5847"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1147.65, 0, 802.713 )
+
+[node name="element5615" parent="map_12osm_buildings" index="5848"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1025.2, 0, 694.634 )
+
+[node name="element5616" parent="map_12osm_buildings" index="5849"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1160.28, 0, 759.329 )
+
+[node name="element5617" parent="map_12osm_buildings" index="5850"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1107.51, 0, 738.746 )
+
+[node name="element5618" parent="map_12osm_buildings" index="5851"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1251.15, 0, 990.82 )
+
+[node name="element5621" parent="map_12osm_buildings" index="5854"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -938.413, 0, 1125.74 )
+
+[node name="element5622" parent="map_12osm_buildings" index="5855"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1132.99, 0, 767.895 )
+
+[node name="element5623" parent="map_12osm_buildings" index="5856"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1024.52, 0, 691.684 )
+
+[node name="element5624" parent="map_12osm_buildings" index="5857"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -997.321, 0, 700.884 )
+
+[node name="element5625" parent="map_12osm_buildings" index="5858"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1092.91, 0, 816.127 )
+
+[node name="Maison Guggenbuhl" parent="map_12osm_buildings" index="5859"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -922.034, 0, 1133.77 )
+
+[node name="element5626" parent="map_12osm_buildings" index="5860"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1019.55, 0, 755.483 )
+
+[node name="element5627" parent="map_12osm_buildings" index="5861"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1098.86, 0, 1088.52 )
+
+[node name="element5628" parent="map_12osm_buildings" index="5862"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -974.553, 0, 1129.6 )
+
+[node name="element5630" parent="map_12osm_buildings" index="5864"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1047.34, 0, 1095.85 )
+
+[node name="element5631" parent="map_12osm_buildings" index="5865"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -913.685, 0, 1038.75 )
+
+[node name="element5633" parent="map_12osm_buildings" index="5867"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1041.41, 0, 724.899 )
+
+[node name="element5634" parent="map_12osm_buildings" index="5868"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1180.97, 0, 1084.01 )
+
+[node name="element5635" parent="map_12osm_buildings" index="5869"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1085.72, 0, 841.531 )
+
+[node name="element5637" parent="map_12osm_buildings" index="5871"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -981.43, 0, 1099.2 )
+
+[node name="Maison Chana Orloff" parent="map_12osm_buildings" index="5872"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1131.3, 0, 823.7 )
+
+[node name="element5638" parent="map_12osm_buildings" index="5873"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1098.69, 0, 737.411 )
+
+[node name="element5640" parent="map_12osm_buildings" index="5875"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -990.843, 0, 1115.77 )
+
+[node name="element5641" parent="map_12osm_buildings" index="5876"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1098.69, 0, 737.411 )
+
+[node name="element5642" parent="map_12osm_buildings" index="5877"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -902.142, 0, 1084.96 )
+
+[node name="element5643" parent="map_12osm_buildings" index="5878"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1008.78, 0, 1129.37 )
+
+[node name="element5644" parent="map_12osm_buildings" index="5879"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -938.324, 0, 1121.16 )
+
+[node name="element5645" parent="map_12osm_buildings" index="5880"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1160.5, 0, 834.804 )
+
+[node name="element5646" parent="map_12osm_buildings" index="5881"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1024.91, 0, 835.253 )
+
+[node name="element5647" parent="map_12osm_buildings" index="5882"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1082.47, 0, 1094.18 )
+
+[node name="element5650" parent="map_12osm_buildings" index="5885"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1128.95, 0, 688.113 )
+
+[node name="element5652" parent="map_12osm_buildings" index="5887"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -910.155, 0, 1008.32 )
+
+[node name="element5653" parent="map_12osm_buildings" index="5888"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1157.71, 0, 771.33 )
+
+[node name="element5654" parent="map_12osm_buildings" index="5889"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1180.2, 0, 696.095 )
+
+[node name="element5656" parent="map_12osm_buildings" index="5891"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1039.92, 0, 673.036 )
+
+[node name="element5657" parent="map_12osm_buildings" index="5892"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -950.795, 0, 1100.57 )
+
+[node name="element5658" parent="map_12osm_buildings" index="5893"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1126.68, 0, 840.888 )
+
+[node name="element5659" parent="map_12osm_buildings" index="5894"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1017.85, 0, 1114.67 )
+
+[node name="element5660" parent="map_12osm_buildings" index="5895"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1221.64, 0, 819.606 )
+
+[node name="element5662" parent="map_12osm_buildings" index="5897"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -966.933, 0, 759.989 )
+
+[node name="element5663" parent="map_12osm_buildings" index="5898"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1237.76, 0, 819.725 )
+
+[node name="element5664" parent="map_12osm_buildings" index="5899"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -938.413, 0, 1081.34 )
+
+[node name="element5665" parent="map_12osm_buildings" index="5900"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1224.92, 0, 745.422 )
+
+[node name="element5668" parent="map_12osm_buildings" index="5904"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1085.62, 0, 679.239 )
+
+[node name="element5669" parent="map_12osm_buildings" index="5905"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1031.37, 0, 1121.71 )
+
+[node name="element5670" parent="map_12osm_buildings" index="5906"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1127.71, 0, 730.749 )
+
+[node name="element5671" parent="map_12osm_buildings" index="5907"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1055.94, 0, 1081.21 )
+
+[node name="element5673" parent="map_12osm_buildings" index="5909"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1027.37, 0, 852.006 )
+
+[node name="element5675" parent="map_12osm_buildings" index="5911"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1176.89, 0, 835.713 )
+
+[node name="element5676" parent="map_12osm_buildings" index="5912"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1076.58, 0, 687.478 )
+
+[node name="element5677" parent="map_12osm_buildings" index="5913"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1125.59, 0, 705.847 )
+
+[node name="element5678" parent="map_12osm_buildings" index="5914"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1224.01, 0, 670.449 )
+
+[node name="element5679" parent="map_12osm_buildings" index="5915"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1037.32, 0, 761.246 )
+
+[node name="element5680" parent="map_12osm_buildings" index="5916"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1150.84, 0, 700.109 )
+
+[node name="element5681" parent="map_12osm_buildings" index="5917"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1012.38, 0, 696.351 )
+
+[node name="element5684" parent="map_12osm_buildings" index="5920"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1070.3, 0, 1112.5 )
+
+[node name="element5686" parent="map_12osm_buildings" index="5922"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -979.809, 0, 758.362 )
+
+[node name="element5688" parent="map_12osm_buildings" index="5924"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1000.68, 0, 736.773 )
+
+[node name="element5692" parent="map_12osm_buildings" index="5928"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1092.47, 0, 831.979 )
+
+[node name="element5693" parent="map_12osm_buildings" index="5929"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1095.4, 0, 722.228 )
+
+[node name="element5696" parent="map_12osm_buildings" index="5932"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -941.733, 0, 1081.84 )
+
+[node name="element5697" parent="map_12osm_buildings" index="5933"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1021.26, 0, 677.247 )
+
+[node name="element5698" parent="map_12osm_buildings" index="5934"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1075.09, 0, 833.051 )
+
+[node name="element5699" parent="map_12osm_buildings" index="5935"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1189.09, 0, 911.207 )
+
+[node name="element5700" parent="map_12osm_buildings" index="5936"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1200.76, 0, 926.912 )
+
+[node name="element5701" parent="map_12osm_buildings" index="5937"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1156.09, 0, 718.086 )
+
+[node name="element5705" parent="map_12osm_buildings" index="5941"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -991.331, 0, 768.98 )
+
+[node name="element5706" parent="map_12osm_buildings" index="5942"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -984.46, 0, 1116.05 )
+
+[node name="element5707" parent="map_12osm_buildings" index="5943"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1031.27, 0, 1096.54 )
+
+[node name="element5708" parent="map_12osm_buildings" index="5944"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1256.48, 0, 958.036 )
+
+[node name="element5709" parent="map_12osm_buildings" index="5945"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1147.13, 0, 687.341 )
+
+[node name="element5710" parent="map_12osm_buildings" index="5946"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -926.656, 0, 942.104 )
+
+[node name="element5711" parent="map_12osm_buildings" index="5947"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -974.154, 0, 857.393 )
+
+[node name="element5713" parent="map_12osm_buildings" index="5949"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -978.026, 0, 746.161 )
+
+[node name="element5714" parent="map_12osm_buildings" index="5950"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1191.54, 0, 706.19 )
+
+[node name="element5715" parent="map_12osm_buildings" index="5951"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1019.86, 0, 1095.8 )
+
+[node name="element5716" parent="map_12osm_buildings" index="5952"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1219.26, 0, 1027.71 )
+
+[node name="element5717" parent="map_12osm_buildings" index="5953"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1228.07, 0, 798.744 )
+
+[node name="element5718" parent="map_12osm_buildings" index="5954"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1065.15, 0, 667.354 )
+
+[node name="element5721" parent="map_12osm_buildings" index="5957"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1034.11, 0, 857.003 )
+
+[node name="element5722" parent="map_12osm_buildings" index="5958"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1076.02, 0, 1094.47 )
+
+[node name="element5723" parent="map_12osm_buildings" index="5959"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1116.16, 0, 733.289 )
+
+[node name="Maison Robert Couturier" parent="map_12osm_buildings" index="5960"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1171.03, 0, 817.113 )
+
+[node name="element5724" parent="map_12osm_buildings" index="5961"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1249.65, 0, 685.75 )
+
+[node name="element5725" parent="map_12osm_buildings" index="5962"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -989.071, 0, 753.685 )
+
+[node name="element5726" parent="map_12osm_buildings" index="5963"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1062.94, 0, 1095.11 )
+
+[node name="element5727" parent="map_12osm_buildings" index="5964"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1041.86, 0, 895.162 )
+
+[node name="element5728" parent="map_12osm_buildings" index="5965"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1121.26, 0, 732.186 )
+
+[node name="Cité du Souvenir" parent="map_12osm_buildings" index="5967"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1199.98, 0, 869.237 )
+
+[node name="element5731" parent="map_12osm_buildings" index="5970"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1051.61, 0, 847.338 )
+
+[node name="element5732" parent="map_12osm_buildings" index="5971"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1132.33, 0, 1094.01 )
+
+[node name="element5733" parent="map_12osm_buildings" index="5972"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1039.27, 0, 878.543 )
+
+[node name="element5736" parent="map_12osm_buildings" index="5975"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1085.59, 0, 1094.04 )
+
+[node name="element5737" parent="map_12osm_buildings" index="5976"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1023.96, 0, 1096.79 )
+
+[node name="element5738" parent="map_12osm_buildings" index="5977"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -945.493, 0, 1125.45 )
+
+[node name="element5739" parent="map_12osm_buildings" index="5978"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -976.275, 0, 792.237 )
+
+[node name="element5740" parent="map_12osm_buildings" index="5979"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1129.37, 0, 704.989 )
+
+[node name="element5741" parent="map_12osm_buildings" index="5980"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -906.195, 0, 1037.46 )
+
+[node name="element5743" parent="map_12osm_buildings" index="5982"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1182.78, 0, 830.869 )
+
+[node name="element5744" parent="map_12osm_buildings" index="5983"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -953.504, 0, 1083.73 )
+
+[node name="element5745" parent="map_12osm_buildings" index="5984"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -965.442, 0, 1124.65 )
+
+[node name="element5746" parent="map_12osm_buildings" index="5985"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1115.59, 0, 856.954 )
+
+[node name="element5748" parent="map_12osm_buildings" index="5987"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -993.294, 0, 722.748 )
+
+[node name="element5751" parent="map_12osm_buildings" index="5990"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1240.76, 0, 845.918 )
+
+[node name="element5753" parent="map_12osm_buildings" index="5992"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1049.28, 0, 877.027 )
+
+[node name="element5754" parent="map_12osm_buildings" index="5993"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1254.86, 0, 953.294 )
+
+[node name="element5755" parent="map_12osm_buildings" index="5994"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -976.059, 0, 857.181 )
+
+[node name="element5757" parent="map_12osm_buildings" index="5996"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -926.061, 0, 1107.96 )
+
+[node name="element5758" parent="map_12osm_buildings" index="5997"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -997.666, 0, 1071.29 )
+
+[node name="element5759" parent="map_12osm_buildings" index="5998"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1130.99, 0, 704.61 )
+
+[node name="element5761" parent="map_12osm_buildings" index="6000"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1009.28, 0, 750.275 )
+
+[node name="element5762" parent="map_12osm_buildings" index="6001"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1082.07, 0, 663.543 )
+
+[node name="element5765" parent="map_12osm_buildings" index="6004"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -979.48, 0, 846.672 )
+
+[node name="element5766" parent="map_12osm_buildings" index="6005"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1181.84, 0, 831.047 )
+
+[node name="element5767" parent="map_12osm_buildings" index="6006"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1134, 0, 839.551 )
+
+[node name="element5768" parent="map_12osm_buildings" index="6007"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1083.09, 0, 1110.87 )
+
+[node name="element5769" parent="map_12osm_buildings" index="6008"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1215.25, 0, 720.956 )
+
+[node name="element5770" parent="map_12osm_buildings" index="6009"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -976.596, 0, 1116.38 )
+
+[node name="element5771" parent="map_12osm_buildings" index="6010"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1099.77, 0, 766.287 )
+
+[node name="element5772" parent="map_12osm_buildings" index="6011"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1010.65, 0, 757.61 )
+
+[node name="element5773" parent="map_12osm_buildings" index="6012"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1047.33, 0, 777.908 )
+
+[node name="element5774" parent="map_12osm_buildings" index="6013"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -942.661, 0, 1107.67 )
+
+[node name="element5775" parent="map_12osm_buildings" index="6014"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1118.86, 0, 809.654 )
+
+[node name="element5776" parent="map_12osm_buildings" index="6015"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1116.77, 0, 691.121 )
+
+[node name="element5777" parent="map_12osm_buildings" index="6016"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1194, 0, 780.272 )
+
+[node name="element5781" parent="map_12osm_buildings" index="6020"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1103.85, 0, 850.066 )
+
+[node name="element5782" parent="map_12osm_buildings" index="6021"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1073.28, 0, 818.824 )
+
+[node name="element5783" parent="map_12osm_buildings" index="6022"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1019.96, 0, 806.534 )
+
+[node name="element5784" parent="map_12osm_buildings" index="6023"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1098.86, 0, 1088.52 )
+
+[node name="element5786" parent="map_12osm_buildings" index="6025"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1074.35, 0, 785.072 )
+
+[node name="element5789" parent="map_12osm_buildings" index="6028"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1130.99, 0, 704.61 )
+
+[node name="element5791" parent="map_12osm_buildings" index="6030"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1160.28, 0, 759.329 )
+
+[node name="element5792" parent="map_12osm_buildings" index="6031"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1082.29, 0, 753.89 )
+
+[node name="element5795" parent="map_12osm_buildings" index="6034"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1032.95, 0, 697.705 )
+
+[node name="element5796" parent="map_12osm_buildings" index="6035"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1255.84, 0, 999.992 )
+
+[node name="element5797" parent="map_12osm_buildings" index="6036"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1086.01, 0, 861.468 )
+
+[node name="element5799" parent="map_12osm_buildings" index="6038"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -991.446, 0, 1126.91 )
+
+[node name="Maison de Pierre Bertrand" parent="map_12osm_buildings" index="6040"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1145.75, 0, 822.038 )
+
+[node name="element5853" parent="map_12osm_buildings" index="6107"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1127.17, 0, 915.795 )
+
+[node name="Chapelle Saint-Yves" parent="map_12osm_buildings" index="6108"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1114, 0, 913.527 )
+
+[node name="element5861" parent="map_12osm_buildings" index="6117"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -964.651, 0, 828.529 )
+
+[node name="element5896" parent="map_12osm_buildings" index="6163"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -223.112, 0, -0.109292 )
+
+[node name="element5912" parent="map_12osm_buildings" index="6179"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 661.52, 0, 255.724 )
+
+[node name="element5936" parent="map_12osm_buildings" index="6208"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1096.71, 0, 1057.65 )
+
+[node name="element5937" parent="map_12osm_buildings" index="6209"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1207.09, 0, 1049.06 )
+
+[node name="element5938" parent="map_12osm_buildings" index="6210"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1041.59, 0, 1047.96 )
+
+[node name="element6218" parent="map_12osm_buildings" index="6516"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1032.4, 0, 902.8 )
+
+[node name="element6232" parent="map_12osm_buildings" index="6530"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1026.77, 0, 782.465 )
+
+[node name="element6280" parent="map_12osm_buildings" index="6580"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1019.55, 0, 755.483 )
+
+[node name="element6287" parent="map_12osm_buildings" index="6587"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -990.718, 0, 702.344 )
+
+[node name="element6309" parent="map_12osm_buildings" index="6611"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -929.244, 0, 1080.82 )
+
+[node name="element6324" parent="map_12osm_buildings" index="6626"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 473.591, 0, 31.5677 )
+
+[node name="element6375" parent="map_12osm_buildings" index="6678"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1231.12, 0, 907.246 )
+
+[node name="element6378" parent="map_12osm_buildings" index="6681"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1137.99, 0, 1174.02 )
+
+[node name="element6381" parent="map_12osm_buildings" index="6684"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1261.92, 0, 991.408 )
+
+[node name="element6382" parent="map_12osm_buildings" index="6685"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1127.01, 0, 778.071 )
+
+[node name="element6385" parent="map_12osm_buildings" index="6688"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1147.08, 0, 745.628 )
+
+[node name="element6389" parent="map_12osm_buildings" index="6692"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1152.55, 0, 772.422 )
+
+[node name="element6470" parent="map_12osm_buildings" index="6787"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1166.14, 0, 702.944 )
+
+[node name="element6474" parent="map_12osm_buildings" index="6791"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1113.2, 0, 717.115 )
+
+[node name="element6485" parent="map_12osm_buildings" index="6805"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1124.13, 0, 1307.61 )
+
+[node name="MeshInstance" type="MeshInstance" parent="." index="17"]
+transform = Transform( 1255, 0, 0, 0, 1, 0, 0, 0, 1245, -15.467, -1, 18.024 )
+mesh = SubResource( 1 )
+skeleton = NodePath("")
+material/0 = SubResource( 2 )
