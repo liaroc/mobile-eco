@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Models/GrandsVoisins2/GrandsVoisins2.tscn" type="PackedScene" id=1]
 [ext_resource path="res://openstreetmap_demos/simple/camera.tscn" type="PackedScene" id=2]
@@ -10,17 +10,60 @@ albedo_color = Color( 0.576471, 0.368627, 0.0431373, 1 )
 
 [sub_resource type="SphereMesh" id=3]
 
-[sub_resource type="SpatialMaterial" id=4]
-params_grow = true
-params_grow_amount = 0.0
-params_use_alpha_scissor = true
-params_alpha_scissor_threshold = 0.0
-albedo_color = Color( 1, 0.701961, 0, 1 )
-emission_enabled = true
-emission = Color( 0.690196, 0.486275, 0, 1 )
-emission_energy = 1.48
-emission_operator = 0
-emission_on_uv2 = false
+[sub_resource type="VisualShaderNodeScalarConstant" id=6]
+constant = 0.5
+
+[sub_resource type="VisualShaderNodeColorConstant" id=7]
+constant = Color( 0.9375, 0.59864, 0.0146484, 1 )
+
+[sub_resource type="VisualShaderNodeColorConstant" id=9]
+constant = Color( 0.9375, 0.59864, 0.0146484, 1 )
+
+[sub_resource type="VisualShader" id=8]
+code = "shader_type spatial;
+
+
+
+void vertex() {
+// Output:0
+
+}
+
+void fragment() {
+// Color:3
+	vec3 n_out3p0 = vec3(0.937500, 0.598640, 0.014648);
+	float n_out3p1 = 1.000000;
+
+// Scalar:2
+	float n_out2p0 = 0.500000;
+
+// Color:4
+	vec3 n_out4p0 = vec3(0.937500, 0.598640, 0.014648);
+	float n_out4p1 = 1.000000;
+
+// Output:0
+	ALBEDO = n_out3p0;
+	ALPHA = n_out2p0;
+	EMISSION = n_out4p0;
+
+}
+
+void light() {
+// Output:0
+
+}
+"
+graph_offset = Vector2( 0, 75 )
+nodes/fragment/2/node = SubResource( 6 )
+nodes/fragment/2/position = Vector2( 60, 240 )
+nodes/fragment/3/node = SubResource( 7 )
+nodes/fragment/3/position = Vector2( 120, 120 )
+nodes/fragment/4/node = SubResource( 9 )
+nodes/fragment/4/position = Vector2( 140, 320 )
+nodes/fragment/connections = PoolIntArray( 2, 0, 0, 1, 3, 0, 0, 0, 4, 0, 0, 5 )
+
+[sub_resource type="ShaderMaterial" id=5]
+shader = SubResource( 8 )
 
 [node name="Spatial" type="Spatial"]
 
@@ -39,9 +82,9 @@ mesh = SubResource( 1 )
 material/0 = SubResource( 2 )
 
 [node name="Halo" type="MeshInstance" parent="Chest"]
-transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0 )
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0.78587, 0 )
 mesh = SubResource( 3 )
-material/0 = SubResource( 4 )
+material/0 = SubResource( 5 )
 
 [node name="OmniLight" type="OmniLight" parent="Chest"]
 transform = Transform( 2.89842, 0, 0, 0, 2.89842, 0, 0, 0, 2.89842, -0.900772, 1.86247, 0.0352173 )
