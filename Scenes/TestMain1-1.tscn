@@ -1,0 +1,129 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Models/GrandsVoisins2/GrandsVoisins2.tscn" type="PackedScene" id=1]
+[ext_resource path="res://openstreetmap_demos/simple/camera.tscn" type="PackedScene" id=2]
+
+[sub_resource type="CubeMesh" id=1]
+
+[sub_resource type="SpatialMaterial" id=2]
+albedo_color = Color( 0.576471, 0.368627, 0.0431373, 1 )
+
+[sub_resource type="SphereMesh" id=3]
+
+[sub_resource type="VisualShaderNodeScalarConstant" id=4]
+constant = 0.5
+
+[sub_resource type="VisualShaderNodeColorConstant" id=5]
+constant = Color( 0.9375, 0.59864, 0.0146484, 1 )
+
+[sub_resource type="VisualShaderNodeColorConstant" id=6]
+constant = Color( 0.9375, 0.59864, 0.0146484, 1 )
+
+[sub_resource type="VisualShader" id=7]
+code = "shader_type spatial;
+
+
+
+void vertex() {
+// Output:0
+
+}
+
+void fragment() {
+// Color:3
+	vec3 n_out3p0 = vec3(0.937500, 0.598640, 0.014648);
+	float n_out3p1 = 1.000000;
+
+// Scalar:2
+	float n_out2p0 = 0.500000;
+
+// Color:4
+	vec3 n_out4p0 = vec3(0.937500, 0.598640, 0.014648);
+	float n_out4p1 = 1.000000;
+
+// Output:0
+	ALBEDO = n_out3p0;
+	ALPHA = n_out2p0;
+	EMISSION = n_out4p0;
+
+}
+
+void light() {
+// Output:0
+
+}
+"
+graph_offset = Vector2( 0, 75 )
+nodes/fragment/2/node = SubResource( 4 )
+nodes/fragment/2/position = Vector2( 60, 240 )
+nodes/fragment/3/node = SubResource( 5 )
+nodes/fragment/3/position = Vector2( 120, 120 )
+nodes/fragment/4/node = SubResource( 6 )
+nodes/fragment/4/position = Vector2( 140, 320 )
+nodes/fragment/connections = PoolIntArray( 2, 0, 0, 1, 3, 0, 0, 0, 4, 0, 0, 5 )
+
+[sub_resource type="ShaderMaterial" id=8]
+shader = SubResource( 7 )
+
+[sub_resource type="ProceduralSky" id=9]
+sky_top_color = Color( 0.0313726, 0.00784314, 0.278431, 1 )
+sky_horizon_color = Color( 0.823529, 0.466667, 0.266667, 1 )
+ground_bottom_color = Color( 1, 0.133333, 0.439216, 1 )
+ground_horizon_color = Color( 0.823529, 0.466667, 0.266667, 1 )
+sun_color = Color( 0.992157, 0.27451, 0.027451, 1 )
+sun_latitude = -20.06
+sun_longitude = 50.82
+
+[sub_resource type="Environment" id=10]
+background_mode = 2
+background_sky = SubResource( 9 )
+ambient_light_color = Color( 0.247059, 0.952941, 0.482353, 1 )
+fog_enabled = true
+fog_color = Color( 0.580392, 0.866667, 0.729412, 1 )
+fog_sun_color = Color( 0.964706, 1, 0.701961, 1 )
+fog_depth_begin = 0.0
+fog_depth_end = 87.9
+fog_depth_curve = 2.54912
+fog_height_enabled = true
+fog_height_min = -10.0
+fog_height_max = 351.6
+fog_height_curve = 0.784584
+tonemap_exposure = 1.53
+tonemap_white = 0.37
+adjustment_enabled = true
+adjustment_brightness = 1.18
+adjustment_contrast = 1.55
+adjustment_saturation = 1.33
+
+[node name="Spatial" type="Spatial"]
+
+[node name="Camera" parent="." instance=ExtResource( 2 )]
+speed = 5
+
+[node name="GrandsVoisins2" parent="." instance=ExtResource( 1 )]
+transform = Transform( 0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -0.831862, 0.332097, -6.7535 )
+
+[node name="Chest" type="Spatial" parent="."]
+transform = Transform( 0.345016, 0, 0, 0, 0.345016, 0, 0, 0, 0.345016, -14.4035, 3.05176e-05, 25.8733 )
+
+[node name="Mesh" type="MeshInstance" parent="Chest"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.190456, 3.65312, 17.8146 )
+mesh = SubResource( 1 )
+material/0 = SubResource( 2 )
+
+[node name="Halo" type="MeshInstance" parent="Chest"]
+transform = Transform( 4, 0, 0, 0, 4, 0, 0, 0, 4, -33.6685, 16.1773, 25.9133 )
+mesh = SubResource( 3 )
+material/0 = SubResource( 8 )
+
+[node name="OmniLight" type="OmniLight" parent="Chest"]
+transform = Transform( 2.89842, 0, 0, 0, 2.89842, 0, 0, 0, 2.89842, -0.48024, 2.75379, 2.09329 )
+light_color = Color( 1, 0.556863, 0.0392157, 1 )
+light_energy = 7.74
+light_indirect_energy = 8.23
+__meta__ = {
+"volumetric": 1.0
+}
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource( 10 )
