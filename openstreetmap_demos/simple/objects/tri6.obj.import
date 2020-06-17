@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/tri6.obj-530f24968944fe86435cddfe2335c0f8.mesh"
+
+[deps]
+
+files=[ "res://.import/tri6.obj-530f24968944fe86435cddfe2335c0f8.mesh" ]
+
+source_file="res://openstreetmap_demos/simple/objects/tri6.obj"
+dest_files=[ "res://.import/tri6.obj-530f24968944fe86435cddfe2335c0f8.mesh", "res://.import/tri6.obj-530f24968944fe86435cddfe2335c0f8.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
