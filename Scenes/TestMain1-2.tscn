@@ -31,15 +31,20 @@ void vertex() {
 
 void fragment() {
 // Color:3
-	vec3 n_out3p0 = vec3(0.937500, 0.598640, 0.014648);
-	float n_out3p1 = 1.000000;
+	vec3 n_out3p0;
+	float n_out3p1;
+	n_out3p0 = vec3(0.937500,0.598640,0.014648);
+	n_out3p1 = 1.000000;
 
 // Scalar:2
-	float n_out2p0 = 0.500000;
+	float n_out2p0;
+	n_out2p0 = 0.500000;
 
 // Color:4
-	vec3 n_out4p0 = vec3(0.937500, 0.598640, 0.014648);
-	float n_out4p1 = 1.000000;
+	vec3 n_out4p0;
+	float n_out4p1;
+	n_out4p0 = vec3(0.937500,0.598640,0.014648);
+	n_out4p1 = 1.000000;
 
 // Output:0
 	ALBEDO = n_out3p0;

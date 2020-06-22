@@ -7,6 +7,7 @@ export var speed = 10
 var moving = false
 var target_pos = Vector3(0, 0, 0)
 var zoom = 1 setget set_zoom,get_zoom
+const ray_length = 1000
 
 var drag = false
 var touch_pos = Vector2(0, 0)
@@ -58,6 +59,17 @@ func _input(event):
 		var ry = -0.004*(event.position.x-touch_pos.x)
 		rotate_camera(rx, ry)
 		touch_pos = event.position
+	if event is InputEventMouseButton and event.pressed and event.button_index == 1:
+		print("input direction works !")
+		var from = camera.project_ray_origin(event.position)
+		var to = from + camera.project_ray_normal(event.position) * ray_length
+		var space_state = get_world().direct_space_state
+		var result = space_state.intersect_ray(from, to, [], 1)
+		print(result)
+		if result:
+			print("input direction results !")
+			get_tree().call_group("units", "move_to", result.position)
+
 
 func _physics_process(delta):
 	if moving:

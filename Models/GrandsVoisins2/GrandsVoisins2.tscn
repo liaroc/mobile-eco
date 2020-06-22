@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Models/GrandsVoisins2/GrandsVoisins2.dae" type="PackedScene" id=1]
 [ext_resource path="res://Models/GrandsVoisins2/Navigation-1592154318566.png" type="Texture" id=2]
@@ -7,6 +7,11 @@
 
 [sub_resource type="SpatialMaterial" id=2]
 albedo_texture = ExtResource( 2 )
+
+[sub_resource type="ConcavePolygonShape" id=3]
+data = PoolVector3Array( 1, 0, 1, -1, 0, 1, 1, 0, -1, -1, 0, 1, -1, 0, -1, 1, 0, -1 )
+
+[sub_resource type="PlaneShape" id=4]
 
 [node name="GrandsVoisins2" instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0319824, 0.302673, 0.977234 )
@@ -1192,3 +1197,18 @@ transform = Transform( 1255, 0, 0, 0, 1, 0, 0, 0, 1245, -15.467, -1, 18.024 )
 mesh = SubResource( 1 )
 skeleton = NodePath("")
 material/0 = SubResource( 2 )
+__meta__ = {
+"apply_volumetrics": false
+}
+
+[node name="StaticBody" type="StaticBody" parent="MeshInstance" index="0"]
+
+[node name="CollisionShape" type="CollisionShape" parent="MeshInstance/StaticBody" index="0"]
+shape = SubResource( 3 )
+
+[node name="Area" type="Area" parent="." index="18"]
+visible = false
+
+[node name="CollisionShape" type="CollisionShape" parent="Area" index="0"]
+transform = Transform( -130.263, 0, 0, 0, 1, 0, 0, 0, -130.263, 0, 7.22293, 0 )
+shape = SubResource( 4 )
