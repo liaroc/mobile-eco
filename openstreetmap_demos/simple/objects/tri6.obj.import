@@ -15,4 +15,5 @@ dest_files=[ "res://.import/tri6.obj-530f24968944fe86435cddfe2335c0f8.mesh", "re
 
 generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
 optimize_mesh=true

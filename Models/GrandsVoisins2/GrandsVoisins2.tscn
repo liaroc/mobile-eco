@@ -1193,7 +1193,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1113.2, 0, 717.115 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1124.13, 0, 1307.61 )
 
 [node name="MeshInstance" type="MeshInstance" parent="." index="17"]
-transform = Transform( 1255, 0, 0, 0, 1, 0, 0, 0, 1245, -15.467, -1, 18.024 )
+transform = Transform( 1255, 0, 0, 0, 1, 0, 0, 0, 1245, -17.4733, -8.02327, 20.5761 )
 mesh = SubResource( 1 )
 skeleton = NodePath("")
 material/0 = SubResource( 2 )
