@@ -1,8 +1,8 @@
 [gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://Models/GrandsVoisins2/GrandsVoisins2.tscn" type="PackedScene" id=1]
-[ext_resource path="res://openstreetmap_demos/simple/camera.tscn" type="PackedScene" id=2]
-[ext_resource path="res://sky/skybox3.png" type="Texture" id=3]
+[ext_resource path="res://sky/skybox_j_4.jpg" type="Texture" id=2]
+[ext_resource path="res://openstreetmap_demos/simple/camera.tscn" type="PackedScene" id=3]
 
 [sub_resource type="CubeMesh" id=1]
 
@@ -32,20 +32,15 @@ void vertex() {
 
 void fragment() {
 // Color:3
-	vec3 n_out3p0;
-	float n_out3p1;
-	n_out3p0 = vec3(0.937500,0.598640,0.014648);
-	n_out3p1 = 1.000000;
+	vec3 n_out3p0 = vec3(0.937500, 0.598640, 0.014648);
+	float n_out3p1 = 1.000000;
 
 // Scalar:2
-	float n_out2p0;
-	n_out2p0 = 0.500000;
+	float n_out2p0 = 0.500000;
 
 // Color:4
-	vec3 n_out4p0;
-	float n_out4p1;
-	n_out4p0 = vec3(0.937500,0.598640,0.014648);
-	n_out4p1 = 1.000000;
+	vec3 n_out4p0 = vec3(0.937500, 0.598640, 0.014648);
+	float n_out4p1 = 1.000000;
 
 // Output:0
 	ALBEDO = n_out3p0;
@@ -72,30 +67,43 @@ nodes/fragment/connections = PoolIntArray( 2, 0, 0, 1, 3, 0, 0, 0, 4, 0, 0, 5 )
 shader = SubResource( 7 )
 
 [sub_resource type="PanoramaSky" id=9]
-panorama = ExtResource( 3 )
+panorama = ExtResource( 2 )
 
 [sub_resource type="Environment" id=10]
 background_mode = 2
 background_sky = SubResource( 9 )
-background_energy = 0.5
-ambient_light_color = Color( 0.396078, 0.956863, 0.615686, 1 )
+background_energy = 1.5
+ambient_light_color = Color( 0.0627451, 0.00392157, 0.196078, 1 )
+ambient_light_energy = 0.59
+ambient_light_sky_contribution = 0.0
 fog_enabled = true
-fog_color = Color( 0.380392, 0.580392, 0.541176, 1 )
+fog_color = Color( 0.372549, 0.713726, 0.635294, 1 )
 fog_sun_color = Color( 0.964706, 1, 0.701961, 1 )
-fog_depth_begin = 50.0
+fog_depth_begin = 25.0
+fog_depth_end = 186.0
 fog_height_enabled = true
-fog_height_min = 5.0
-fog_height_max = -2.0
-tonemap_exposure = 1.53
-tonemap_white = 0.37
+fog_height_min = 2.0
+fog_height_max = -20.0
+fog_height_curve = 0.784584
+tonemap_exposure = 1.85
+auto_exposure_scale = 1.09
+auto_exposure_max_luma = 0.78
+ss_reflections_max_steps = 100
+ss_reflections_fade_in = 0.0776449
+ss_reflections_depth_tolerance = 0.1
+ss_reflections_roughness = false
+ssao_radius = 0.1
+ssao_intensity = 4.0
+ssao_light_affect = 0.44
+ssao_color = Color( 0.917647, 0.168627, 0.168627, 1 )
 adjustment_enabled = true
-adjustment_brightness = 1.18
-adjustment_contrast = 1.55
-adjustment_saturation = 1.33
+adjustment_brightness = 0.92
+adjustment_contrast = 1.48
+adjustment_saturation = 1.25
 
 [node name="Spatial" type="Spatial"]
 
-[node name="Camera" parent="." instance=ExtResource( 2 )]
+[node name="Camera" parent="." instance=ExtResource( 3 )]
 speed = 5
 
 [node name="GrandsVoisins2" parent="." instance=ExtResource( 1 )]
@@ -134,8 +142,12 @@ environment = SubResource( 10 )
 
 [node name="DirectionalLight" type="DirectionalLight" parent="."]
 transform = Transform( 0.822126, -0.346315, -0.451857, 0.36922, -0.279802, 0.886221, -0.433342, -0.89542, -0.102166, 0, 20.2, 0 )
-light_color = Color( 0.658824, 1, 0.992157, 1 )
+light_color = Color( 0.886275, 0.886275, 0.886275, 1 )
 light_energy = 0.2
+light_specular = 0.0
+shadow_enabled = true
+shadow_bias = 0.79
+shadow_contact = 0.17
 __meta__ = {
 "volumetric": 1.0
 }

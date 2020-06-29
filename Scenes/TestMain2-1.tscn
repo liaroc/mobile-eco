@@ -1,8 +1,10 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://Models/GrandsVoisins2/GrandsVoisins2.tscn" type="PackedScene" id=1]
 [ext_resource path="res://openstreetmap_demos/simple/camera.tscn" type="PackedScene" id=2]
-[ext_resource path="res://sky/skybox3.png" type="Texture" id=3]
+[ext_resource path="res://sky/skybox.png" type="Texture" id=3]
+[ext_resource path="res://Models/PNJ/Arbre-no-anim.glb" type="PackedScene" id=4]
+
 
 [sub_resource type="CubeMesh" id=1]
 
@@ -32,20 +34,15 @@ void vertex() {
 
 void fragment() {
 // Color:3
-	vec3 n_out3p0;
-	float n_out3p1;
-	n_out3p0 = vec3(0.937500,0.598640,0.014648);
-	n_out3p1 = 1.000000;
+	vec3 n_out3p0 = vec3(0.937500, 0.598640, 0.014648);
+	float n_out3p1 = 1.000000;
 
 // Scalar:2
-	float n_out2p0;
-	n_out2p0 = 0.500000;
+	float n_out2p0 = 0.500000;
 
 // Color:4
-	vec3 n_out4p0;
-	float n_out4p1;
-	n_out4p0 = vec3(0.937500,0.598640,0.014648);
-	n_out4p1 = 1.000000;
+	vec3 n_out4p0 = vec3(0.937500, 0.598640, 0.014648);
+	float n_out4p1 = 1.000000;
 
 // Output:0
 	ALBEDO = n_out3p0;
@@ -77,20 +74,21 @@ panorama = ExtResource( 3 )
 [sub_resource type="Environment" id=10]
 background_mode = 2
 background_sky = SubResource( 9 )
-background_energy = 0.5
-ambient_light_color = Color( 0.396078, 0.956863, 0.615686, 1 )
+background_energy = 1.5
+ambient_light_color = Color( 0.988235, 1, 0.992157, 1 )
+ambient_light_energy = 0.0
 fog_enabled = true
 fog_color = Color( 0.380392, 0.580392, 0.541176, 1 )
 fog_sun_color = Color( 0.964706, 1, 0.701961, 1 )
 fog_depth_begin = 50.0
 fog_height_enabled = true
-fog_height_min = 5.0
+fog_height_min = 2.0
 fog_height_max = -2.0
-tonemap_exposure = 1.53
+tonemap_exposure = 2.73
 tonemap_white = 0.37
 adjustment_enabled = true
-adjustment_brightness = 1.18
-adjustment_contrast = 1.55
+adjustment_brightness = 0.83
+adjustment_contrast = 1.29
 adjustment_saturation = 1.33
 
 [node name="Spatial" type="Spatial"]
@@ -100,6 +98,9 @@ speed = 5
 
 [node name="GrandsVoisins2" parent="." instance=ExtResource( 1 )]
 transform = Transform( 0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0.99445, 2.37941, -6.54058 )
+
+[node name="Arbre-no-anim" parent="GrandsVoisins2" instance=ExtResource( 4 )]
+transform = Transform( 1, 0, 0, 0, 0.14275, 0.989759, 0, -0.989759, 0.14275, 1.00132, 12.9072, -203.049 )
 
 [node name="Chest" type="Spatial" parent="."]
 transform = Transform( 0.345016, 0, 0, 0, 0.345016, 0, 0, 0, 0.345016, -14.4035, 3.05176e-05, 25.8733 )
@@ -131,6 +132,9 @@ __meta__ = {
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource( 10 )
+
+[node name="Arbre-no-anim" parent="WorldEnvironment" instance=ExtResource( 4 )]
+transform = Transform( 0.1, 0, 0, 0, -0.0021047, 0.0999779, 0, -0.0999779, -0.0021047, 1.18866, 1.59244, -25.938 )
 
 [node name="DirectionalLight" type="DirectionalLight" parent="."]
 transform = Transform( 0.822126, -0.346315, -0.451857, 0.36922, -0.279802, 0.886221, -0.433342, -0.89542, -0.102166, 0, 20.2, 0 )
