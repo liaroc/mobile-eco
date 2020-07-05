@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/intro jeu 2020.ogg-ae0dff44ae0f57cd4210a7472e7d21f0.oggstr"
+
+[deps]
+
+source_file="res://Sounds/intro jeu 2020.ogg"
+dest_files=[ "res://.import/intro jeu 2020.ogg-ae0dff44ae0f57cd4210a7472e7d21f0.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

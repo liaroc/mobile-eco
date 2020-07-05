@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/OST studio ateliersco 2020 ambiance.ogg-5aaa22b043d3185d5f655c6a0009623a.oggstr"
+
+[deps]
+
+source_file="res://Sounds/OST studio ateliersco 2020 ambiance.ogg"
+dest_files=[ "res://.import/OST studio ateliersco 2020 ambiance.ogg-5aaa22b043d3185d5f655c6a0009623a.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
