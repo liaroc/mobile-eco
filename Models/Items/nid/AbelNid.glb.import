@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/AbelNid.glb-d1a416adb1f3ec46379964f48922a5e9.scn"
+path="res://.import/AbelNid.glb-56690d99c1ae807828b4af480cc89334.scn"
 
 [deps]
 
-source_file="res://Models/Items/AbelNid.glb"
-dest_files=[ "res://.import/AbelNid.glb-d1a416adb1f3ec46379964f48922a5e9.scn" ]
+source_file="res://Models/Items/nid/AbelNid.glb"
+dest_files=[ "res://.import/AbelNid.glb-56690d99c1ae807828b4af480cc89334.scn" ]
 
 [params]
 
