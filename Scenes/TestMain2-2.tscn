@@ -2303,26 +2303,28 @@ __meta__ = {
 }
 
 [node name="Araigne mobile eco" parent="." instance=ExtResource( 4 )]
-transform = Transform( 0.0232987, -0.097248, -4.25084e-09, 0, -4.37114e-09, 0.1, -0.097248, -0.0232987, -1.01842e-09, -52.3717, 1.62948, 33.0669 )
+transform = Transform( 0.0232987, -0.097248, -4.25084e-09, 0, -4.37114e-09, 0.1, -0.097248, -0.0232987, -1.01842e-09, -66.933, 2.13553, 4.03537 )
+
+[node name="Cube" parent="Araigne mobile eco/Armature/Skeleton" index="0"]
+transform = Transform( 1, 2.98023e-08, 1.77636e-15, -2.98023e-08, 1, -1.33227e-15, 0, 9.99201e-15, 1, 0, 0, 0 )
 
 [node name="AnimationTree" parent="Araigne mobile eco" index="2"]
-active = false
 parameters/playback = SubResource( 11 )
 
 [node name="Arbre mobile eco" parent="." instance=ExtResource( 5 )]
-transform = Transform( -0.0105474, 0.199722, 3.25388e-08, 0, -3.25841e-08, 0.2, 0.199722, 0.0105474, 1.71839e-09, -49.831, 1.55927, 33.8364 )
+transform = Transform( -0.0105474, 0.199722, 3.25388e-08, 0, -3.25841e-08, 0.2, 0.199722, 0.0105474, 1.71839e-09, -62.5808, 2.27147, 5.40609 )
 
 [node name="Statemachine" parent="Arbre mobile eco" index="1"]
 parameters/playback = SubResource( 12 )
 
 [node name="RACINES" parent="Arbre mobile eco" index="2"]
-transform = Transform( 1, -1.49012e-08, 0, 1.49012e-08, 1, 0, -3.55271e-15, 1.77636e-15, 1, 0, 0, 0 )
+transform = Transform( 1, -1.49012e-08, -8.88178e-16, 1.49012e-08, 1, -8.32667e-16, -3.55271e-15, -1.57652e-14, 1, 0, 0, 0 )
 
 [node name="Arbre mobile eco2" parent="." instance=ExtResource( 5 )]
-transform = Transform( -0.0479169, 0.194175, 3.16351e-08, 0, -3.25841e-08, 0.2, 0.194175, 0.0479169, 7.80665e-09, -49.831, 1.55927, 39.0261 )
+transform = Transform( -0.0479169, 0.194175, 3.16351e-08, 0, -3.25841e-08, 0.2, 0.194175, 0.0479169, 7.80665e-09, -62.5808, 2.27147, 10.5958 )
 
 [node name="Armature" parent="Arbre mobile eco2" index="0"]
-transform = Transform( 0.534588, 0.845112, 1.37686e-07, -0.845112, 0.534588, -7.58252e-08, -1.37686e-07, -7.58251e-08, 0.999999, 1.52588e-05, 0.864853, 7.01292 )
+transform = Transform( 0.929551, 0.368692, 6.00675e-08, -0.368692, 0.929551, -1.14775e-08, -6.00676e-08, -1.14775e-08, 0.999999, 1.52588e-05, 0.864853, 7.01292 )
 
 [node name="Statemachine" parent="Arbre mobile eco2" index="1"]
 parameters/playback = SubResource( 13 )
@@ -2337,8 +2339,11 @@ anims/IDLE_POSE = SubResource( 19 )
 anims/SEED = SubResource( 20 )
 
 [node name="Cinematic" type="AnimationPlayer" parent="."]
-autoplay = "test"
 anims/test = SubResource( 21 )
+
+[node name="Camera2" type="Camera" parent="."]
+transform = Transform( 0.226447, 0, -0.974023, 0, 1, 0, 0.974023, 0, 0.226447, -72.1129, 5.75322, 9.65222 )
+current = true
 
 [editable path="Araigne mobile eco"]
 
