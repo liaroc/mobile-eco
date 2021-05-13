@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/RyleyGraine.glb-b6a61c90304d9f1d278e70f9bb2882d0.scn"
+path="res://.import/AbelVie.glb-b30ca91c1f82015356869ca846751df7.scn"
 
 [deps]
 
-source_file="res://Models/Items/RyleyGraine.glb"
-dest_files=[ "res://.import/RyleyGraine.glb-b6a61c90304d9f1d278e70f9bb2882d0.scn" ]
+source_file="res://Models/Items/vie/AbelVie.glb"
+dest_files=[ "res://.import/AbelVie.glb-b30ca91c1f82015356869ca846751df7.scn" ]
 
 [params]
 

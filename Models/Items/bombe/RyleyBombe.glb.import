@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/RyleyCoffre.glb-2e81749d34623f4af6aa82838f01e320.scn"
+path="res://.import/RyleyBombe.glb-890e03df2f135e2d20b659b3859c0c4d.scn"
 
 [deps]
 
-source_file="res://Models/Items/RyleyCoffre.glb"
-dest_files=[ "res://.import/RyleyCoffre.glb-2e81749d34623f4af6aa82838f01e320.scn" ]
+source_file="res://Models/Items/bombe/RyleyBombe.glb"
+dest_files=[ "res://.import/RyleyBombe.glb-890e03df2f135e2d20b659b3859c0c4d.scn" ]
 
 [params]
 

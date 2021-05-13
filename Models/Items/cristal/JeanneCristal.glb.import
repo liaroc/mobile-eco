@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/RyleyBombe.glb-bb3d098d546d7c7062522a8beef964c0.scn"
+path="res://.import/JeanneCristal.glb-3efb3cbb7561283f399a3c1165de42c4.scn"
 
 [deps]
 
-source_file="res://Models/Items/RyleyBombe.glb"
-dest_files=[ "res://.import/RyleyBombe.glb-bb3d098d546d7c7062522a8beef964c0.scn" ]
+source_file="res://Models/Items/cristal/JeanneCristal.glb"
+dest_files=[ "res://.import/JeanneCristal.glb-3efb3cbb7561283f399a3c1165de42c4.scn" ]
 
 [params]
 
